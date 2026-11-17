@@ -1,75 +1,178 @@
-# Proprietary Provisions & Licensing Consolidation
+GEBETSZEITEN BADEN (SKV BADEN) – INFO / LIZENZEN & DATENSCHUTZ
 
-## Intellectual Property Allocation & Primary Rights Ownership
-The sole developer, publisher, and holder of all intangible monopoly rights concerning this application is Amir M. The authorship regarding the entire source code, the logical data architecture, the algorithmic structuring for the synchronization of temporal prayer coordinates, as well as the proprietary visual interface designs remains exclusively and unrestrictedly with the operating entity. Any unauthorized decompilation, modification, replication, or alternative exploitation—regardless of the technical methodology employed—is strictly prohibited under invocation of the applicable copyright statutes.
+############################################################
+DEUTSCH
+############################################################
 
----
+============================================================
+DATENSCHUTZERKLÄRUNG
+============================================================
 
-## License Registry of Integrated Third-Party Components
-The provision of these gratuitous functionalities is conducted under the restrictive integration of external datasets and open licensing frameworks within a non-commercial framework, subject to the express preservation of the rights of the developer Amir M.:
+Verantwortlicher
+----------------
 
-* **Canonical Text Segments:** The Arabic primary text is subject to the disposition rights of the Tanzil Project (tanzil.net) under the stipulated conditions of the Creative Commons Attribution 3.0 denomination.
-* **Translational and Phonetic Interfaces:** The aggregation of translational text modules and auditory data streams is conducted transiently via the protocols of the Al Quran Cloud API, the Islamic Network Content Delivery Network, and MP3Quran.net, under partial exclusion of any independent ownership rights by the application publisher.
-* **Exegesis Infrastructure & Matrix Generation:** The sub-infrastructures for the provision of exegetical fragments (`spa5k/tafsir_api`) as well as the cryptographic-visual QR code generation (K. Arase) are based on the exemption clauses of the MIT licensing parameters.
-* **Typographic Assets:** The typographic implementation (Amiri, Figtree, Noto Sans Arabic) participates in the usage rights of the SIL Open Font License 1.1.
-* **Geometric Vector Data & Geocoding:** The telemetric localization interacts on a case-by-case basis with the Open-Meteo Geocoding API (CC BY 4.0) and the relational database structure of OpenStreetMap Nominatim under recognition of the Open Database License (ODbL).
-* **Auditory Frequency Data (Athan):** Auditory data packages for the manifestation of acoustic signals are not a constitutive component of the distributive application package. These are transferred exclusively by way of an explicitly user-induced single retrieval (On-Demand Caching) from decentralized repositories (`abodehq/Athan-MP3` / `AalianKhan/adhans`) for purely local interaction.
+Sport- und Kulturverein Baden (SKV Baden)
+Waltersdorfer Straße 49, 2500 Baden, Österreich
 
----
+Die App wurde von Amir M. unentgeltlich für den Verein entwickelt und veröffentlicht. Weder der Verein noch der Herausgeber betreiben Server oder Nutzerdatenbanken, und keiner von beiden erhält personenbezogene Daten aus der App.
 
-# PRIVACY POLICY
+Daten auf deinem Gerät
+----------------------
 
-**Directive on the Processing of Transient and Persistent Data Structures**  
-Responsible Entity within the Meaning of Data Protection Law:  
-Software Developer: Amir M.
+Keine Registrierung, keine Werbung, kein Tracking. Einstellungen, heruntergeladene Inhalte, Spielfortschritt und dein letzter Standort werden nur auf deinem Gerät gespeichert. Du kannst sie jederzeit löschen, indem du die App-Daten löschst oder die App deinstallierst.
 
-## § 1 Scope of Collection and Geolocalization Telemetry
-The application processes geographic geodata to execute the mathematical-spherical trigonometry (calculation of the Qibla vectors). Collection occurs exclusively provided that an active, user-initiated triggering of the interaction element ("compass vector") is registered. In this context, a transient transmission of the alphanumeric location designation to the server architectures of the third-party providers Open-Meteo and OpenStreetMap (Nominatim) is executed for the purpose of conversion into numerical coordinate pairs. Permanent, automated background tracking or the creation of latent movement profiles is technically excluded within the system protocol.
+Standort
+--------
 
-## § 2 Localization of Local Data Storage
-The storage of the generated coordinate matrices and individual preference configurations is conducted strictly isolated within the persistent sandbox storage of the respective end-user device. A server-side migration, mirroring, or exfiltration of these data structures to infrastructures of the publisher does not take place at any time.
+Mit deiner Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) wird GPS nur auf deinem Gerät für Qibla-Richtung und Gebetszeiten verwendet. Verweigerst du GPS und gibst stattdessen eine Stadt ein, werden der Ortsname und deine IP-Adresse an Open-Meteo (geocoding-api.open-meteo.com) gesendet, um die Koordinaten zu ermitteln (Art. 6 Abs. 1 lit. f DSGVO).
 
-## § 3 CDN Interaction During Asynchronous Data Retrieval
-In the context of initiating text queries or the event-driven download of the auditory data components (Athan), the application contacts the edge servers of a Content Delivery Network (GitHub/jsDelivr CDN). In the course of this protocol handshake, the IP address of the requesting end-user device is processed as a temporary transactional attribute due to network requirements. Any persistent storage or commercial exploitation of these network identifiers is excluded.
+Benachrichtigungen
+------------------
 
-## § 4 Exclusion of Third-Party Analytics & Monetization Libraries
-The information technology architecture of the application completely foregoes the implementation of SDK libraries from advertising networks or analytical tracking frameworks (e.g., Google Analytics, Facebook SDK). Consequently, any disclosure or sale of processed data structures to third parties is systemically prevented.
+Gebets-Erinnerungen werden lokal auf deinem Gerät geplant. Es werden keine Daten übertragen.
 
-## § 5 Data Subject Rights and Data Anonymization
-Since the data retention is executed exclusively locally and decentrally, the deletion of all processed fragments is subject to the autonomous disposition of the user. This can be achieved through the complete interruption of the application (uninstallation) or the manual purging of the local application cache within the operating system level.
+Externe Dienste
+---------------
 
----
----
+Online-Funktionen laden Inhalte direkt von folgenden Anbietern. Dabei wird technisch bedingt deine IP-Adresse übermittelt (Art. 6 Abs. 1 lit. f DSGVO):
 
-# Eigentumsrechtliche Bestimmungen & Lizenzkonsolidierung
+- Neuigkeiten („Aktuelles“): GitHub (raw.githubusercontent.com)
+- Quran-Text, Übersetzungen, Wort für Wort: Al Quran Cloud (api.alquran.cloud)
+- Rezitationen und Athan: Islamic Network (cdn.islamic.network), QuranCDN (audio.qurancdn.com), mp3quran.net, GitHub, jsDelivr
+- Quran-Schrift, Tafsir, Kurse: Quran Foundation (verses.quran.foundation), jsDelivr (cdn.jsdelivr.net), Cloudflare Pages (pages.dev)
+- Hadith: HadeethEnc.com
+- Gold- und Silberkurse: Frankfurter (api.frankfurter.dev)
+- Ortssuche: Open-Meteo (geocoding-api.open-meteo.com)
 
-## Zuordnung des geistigen Eigentums & Inhaberschaft der Hauptrechte
-Alleiniger Entwickler, Herausgeber und Inhaber sämtlicher immaterieller Monopolrechte an dieser Anwendung ist Amir M. Die Urheberschaft am gesamten Quellcode, der logischen Datenarchitektur, der algorithmischen Strukturierung zur Synchronisation zeitlicher Gebetskoordinaten sowie an den proprietären visuellen Benutzeroberflächen-Designs verbleibt ausschließlich und uneingeschränkt bei der betreibenden Einheit. Jede unbefugte Dekompilierung, Modifikation, Vervielfältigung oder anderweitige Verwertung – unabhängig von der angewandten technischen Methodik – ist unter Berufung auf die geltenden Urheberrechtsgesetze strengstens untersagt.
+Einige dieser Anbieter (z. B. GitHub, Cloudflare, jsDelivr) betreiben auch Server außerhalb des EWR, insbesondere in den USA.
 
----
+Deine Rechte
+------------
 
-## Lizenzverzeichnis integrierter Drittanbieter-Komponenten
-Die Bereitstellung dieser unentgeltlichen Funktionalitäten erfolgt unter restriktiver Einbindung externer Datensätze und offener Lizenzierungsrahmen innerhalb eines nicht-kommerziellen Rahmens, vorbehaltlich der ausdrücklichen Wahrung der Rechte des Entwicklers Amir M.:
+Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch (Art. 15–21 DSGVO) und kannst dich bei der Österreichischen Datenschutzbehörde beschweren, Barichgasse 40–42, 1030 Wien (dsb.gv.at).
 
-* **Kanonische Textsegmente:** Der arabische Primärtext unterliegt den Verfügungsrechten des Tanzil-Projekts (tanzil.net) unter den festgelegten Bedingungen der Creative Commons Attribution 3.0-Lizenz.
-* **Übersetzungs- und Phonetik-Schnittstellen:** Die Aggregation von Übersetzungstextmodulen und auditiven Datenströmen erfolgt flüchtig über die Protokolle der Al Quran Cloud API, des Islamic Network Content Delivery Network sowie MP3Quran.net unter teilweisem Ausschluss jeglicher eigenständiger Eigentumsrechte durch den Herausgeber der Anwendung.
-* **Exegese-Infrastruktur & Matrix-Generierung:** Die Sub-Infrastrukturen zur Bereitstellung exegetischer Fragmente (`spa5k/tafsir_api`) sowie die kryptografisch-visuelle QR-Code-Generierung (K. Arase) basieren auf den Freistellungsklauseln der MIT-Lizenzparameter.
-* **Typografische Assets:** Die typografische Umsetzung (Amiri, Figtree, Noto Sans Arabic) unterliegt den Nutzungsrechten der SIL Open Font License 1.1.
-* **Geometrische Vektordaten & Geokodierung:** Die telemetrische Lokalisierung interagiert einzelfallbezogen mit der Open-Meteo Geocoding API (CC BY 4.0) und der relationalen Datenbankstruktur von OpenStreetMap Nominatim unter Anerkennung der Open Database License (ODbL).
-* **Auditive Frequenzdaten (Athan):** Auditive Datenpakete zur Wiedergabe akustischer Signale sind kein konstitutiver Bestandteil des distributiven Anwendungspakets. Diese werden ausschließlich im Wege eines ausdrücklich vom Nutzer veranlassten Einzelabrufs (On-Demand Caching) aus dezentralen Repositories (`abodehq/Athan-MP3` / `AalianKhan/adhans`) zur rein lokalen Interaktion übertragen.
+============================================================
+NUTZUNGSBEDINGUNGEN
+============================================================
 
----
+Die App ist kostenlos und nicht-kommerziell. Kommerzielle Nutzung oder Weitergabe der App oder ihrer Inhalte ist nicht erlaubt. Für die Inhalte („Aktuelles“, Gebetszeiten) ist der Verein verantwortlich. Da die App unentgeltlich bereitgestellt wird, haftet der Herausgeber nur für Vorsatz und grobe Fahrlässigkeit. Gebetszeiten, GPS-Berechnungen (Muslim World League 18°/17°) und Kompass wurden sorgfältig erstellt, Abweichungen sind jedoch möglich; für ihre Richtigkeit wird keine Haftung übernommen. Es gilt österreichisches Recht.
 
-# DATENSCHUTZERKLÄRUNG
+============================================================
+IMPRESSUM
+============================================================
 
-**Richtlinie über die Verarbeitung flüchtiger und persistenter Datenstrukturen**  
-Verantwortliche Stelle im Sinne des Datenschutzrechts:  
-Softwareentwickler: Amir M.
+Sport- und Kulturverein Baden (SKV Baden)
+Waltersdorfer Straße 49, 2500 Baden, Österreich
 
-## § 1 Umfang der Erhebung und Geolokalisierungs-Telemetrie
-Die Anwendung verarbeitet geografische Geodaten zur Durchführung der mathematisch-sphärischen Trigonometrie (Berechnung der Qibla-Vektoren). Eine Erhebung erfolgt ausschließlich unter der Voraussetzung, dass eine aktive, vom Nutzer ausgelöste Betätigung des Interaktionselements („Kompass-Vektor“) registriert wird. In diesem Zusammenhang erfolgt eine vorübergehende Übermittlung der alphanumerischen Ortsbezeichnung an die Serverarchitekturen der Drittanbieter Open-Meteo und OpenStreetMap (Nominatim) zum Zweck der Umwandlung in numerische Koordinatenpaare. Eine dauerhafte, automatisierte Hintergrundverfolgung oder die Erstellung latenter Bewegungsprofile ist im Systemprotokoll technisch ausgeschlossen.
+============================================================
+QUELLEN & LIZENZEN
+============================================================
 
-## § 2 Lokalisierung der lokalen Datenspeicherung
-Die Speicherung der generierten Koordinatenmatrizen sowie individueller Präferenzkonfigurationen erfolgt streng isoliert innerhalb des persistenten Sandbox-Speichers des jeweiligen Endgeräts. Eine serverseitige Migration, Spiegelung oder Ausleitung dieser Datenstrukturen auf Infrastrukturen des Herausgebers findet zu keinem Zeitpunkt statt.
+- Quran-Text: Tanzil Project, CC BY 3.0, unverändert – tanzil.net
+- Übersetzungen und Tafsir: Rechte bei den jeweiligen Übersetzern und Autoren
+- Rezitationen: Al Quran Cloud / Islamic Network, mp3quran.net, QuranCDN; Rechte bei den Anbietern und Rezitatoren
+- Hadith: HadeethEnc.com, unverändert
+- Hisnul Muslim: Sa’id bin Ali bin Wahf Al-Qahtani; Audio: rn0x/Adhkar-json
+- Athan-Audio: abodehq/Athan-MP3, AalianKhan/adhans (nur auf Wunsch geladen)
+- Ortssuche: Open-Meteo (open-meteo.com), CC BY 4.0
+- Gold- und Silberkurse: Frankfurter (MIT); Currency API von fawazahmed0 (CC0)
+- Schrift KFGQPC Hafs: King Fahd Glorious Quran Printing Complex, unverändert
+- Schriftarten (SIL OFL 1.1): Figtree, Fraunces, Noto Sans/Naskh/Kufi Arabic, Noto Nastaliq Urdu, Amiri, Amiri Quran, Aref Ruqaa, Reem Kufi, Scheherazade New, Lateef, Harmattan, Markazi Text, El Messiri, Mirza, Alkalami, Qahiri, Kufam, Gulzar – OFL-LICENSES.txt
+- PDF.js – Mozilla, Apache License 2.0
+- QR Code Generator – © 2009 Kazuhiko Arase, MIT. „QR Code“ ist eine eingetragene Marke der DENSO WAVE INCORPORATED.
+- Capacitor – © Drifty Co. / Ionic, MIT
 
-## § 3 CDN-Interaktion beim asynchronen Datenabruf
+MIT-Lizenz
+----------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+############################################################
+ENGLISH
+############################################################
+
+============================================================
+PRIVACY POLICY
+============================================================
+
+Valid from 17 November 2026
+
+Controller
+----------
+
+Sport- und Kulturverein Baden (SKV Baden)
+Waltersdorfer Straße 49, 2500 Baden, Austria
+
+The app was developed and published free of charge by Amir M. on behalf of the association. Neither the association nor the publisher operates servers or user databases, and neither receives personal data from the app.
+
+Data on your device
+-------------------
+
+No registration, no advertising, no tracking. Settings, downloaded content, game progress and your last location are stored only on your device. You can delete them at any time by clearing the app data or uninstalling the app.
+
+Location
+--------
+
+With your consent (Art. 6(1)(a) GDPR), GPS is used only on your device for the Qibla direction and prayer times. If you deny GPS and enter a city instead, the place name and your IP address are sent to Open-Meteo (geocoding-api.open-meteo.com) to look up the coordinates (Art. 6(1)(f) GDPR).
+
+Notifications
+-------------
+
+Prayer reminders are scheduled locally on your device. No data is transmitted.
+
+External services
+-----------------
+
+Online features load content directly from the following providers. Your IP address is transmitted for technical reasons (Art. 6(1)(f) GDPR):
+
+- News ("Aktuelles"): GitHub (raw.githubusercontent.com)
+- Quran text, translations, word by word: Al Quran Cloud (api.alquran.cloud)
+- Recitations and Athan: Islamic Network (cdn.islamic.network), QuranCDN (audio.qurancdn.com), mp3quran.net, GitHub, jsDelivr
+- Quran font, tafsir, exchange rates: Quran Foundation (verses.quran.foundation), jsDelivr (cdn.jsdelivr.net), Cloudflare Pages (pages.dev)
+- Hadith: HadeethEnc.com
+- Gold and silver prices: Frankfurter (api.frankfurter.dev)
+- City search: Open-Meteo (geocoding-api.open-meteo.com)
+
+Some of these providers (e.g. GitHub, Cloudflare, jsDelivr) also operate servers outside the EEA, particularly in the USA.
+
+Your rights
+-----------
+
+You have the right of access, rectification, erasure, restriction, data portability and objection (Arts. 15–21 GDPR) and may lodge a complaint with the Austrian Data Protection Authority, Barichgasse 40–42, 1030 Vienna (dsb.gv.at).
+
+============================================================
+TERMS OF USE
+============================================================
+
+The app is free of charge and non-commercial. Commercial use or redistribution of the app or its content is not permitted. The association is responsible for its content ("Aktuelles", prayer times). As the app is provided free of charge, the publisher is liable only for intent and gross negligence. Prayer times, GPS calculations (Muslim World League 18°/17°) and the compass were prepared with care, but deviations are possible; no liability is assumed for their accuracy. Austrian law applies.
+
+============================================================
+LEGAL NOTICE
+============================================================
+
+Sport- und Kulturverein Baden (SKV Baden)
+Waltersdorfer Straße 49, 2500 Baden, Austria
+
+============================================================
+SOURCES & LICENCES
+============================================================
+
+- Quran text: Tanzil Project, CC BY 3.0, shown unchanged – tanzil.net
+- Translations and tafsir: rights with the respective translators and authors
+- Recitations: Al Quran Cloud / Islamic Network, mp3quran.net, QuranCDN; rights with the providers and reciters
+- Hadith: HadeethEnc.com, shown unchanged
+- Hisnul Muslim: Sa’id bin Ali bin Wahf Al-Qahtani; audio: rn0x/Adhkar-json
+- Athan audio: abodehq/Athan-MP3, AalianKhan/adhans (loaded only on request)
+- City search: Open-Meteo (open-meteo.com), CC BY 4.0
+- Gold and silver prices: Frankfurter (MIT); Currency API by fawazahmed0 (CC0)
+- Font KFGQPC Hafs: King Fahd Glorious Quran Printing Complex, used unchanged
+- Fonts (SIL OFL 1.1): Figtree, Fraunces, Noto Sans/Naskh/Kufi Arabic, Noto Nastaliq Urdu, Amiri, Amiri Quran, Aref Ruqaa, Reem Kufi, Scheherazade New, Lateef, Harmattan, Markazi Text, El Messiri, Mirza, Alkalami, Qahiri, Kufam, Gulzar – OFL-LICENSES.txt
+- PDF.js – Mozilla, Apache License 2.0
+- QR Code Generator – © 2009 Kazuhiko Arase, MIT. “QR Code” is a registered trademark of DENSO WAVE INCORPORATED.
+- Capacitor – © Drifty Co. / Ionic, MIT
+
+MIT licence
+-----------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
